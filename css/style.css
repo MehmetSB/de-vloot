@@ -4,48 +4,49 @@
   font-family: sans-serif;
 }
 
-body {
+body{
   background-image: url(grfx/bg.png);
   background-repeat: repeat-x;
 }
 
 #header {
-  height: 28.2%;
-  padding: 0% 20px;
+  height: 229px;
+  padding: 20px;
   color: #ffffff;
   background-image: url(grfx/header.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
-.header1 {
+h1{
   color: black;
-
 }
 
+p{
+  color: black;
+}
 #container {
-  height: 100%;
+  height: 810px;
   position: absolute;
-  width: 42.01%;
-  margin-left: 29.65%;
+  width: 800px;
+  margin-left: 550px;
 }
 
 #content {
+  height: 800px;
+  padding: 15px;
   background-color: #ffffff;
-  height: 72.5%;
-  padding: 0% 2.5%;
 }
 
-.top-menu{
-  text-decoration: none;
-  list-style-type: none;
+ul{
   margin-top: 19%;
+  left: -10px;
+  list-style-type: none;
+  text-decoration: none;
   position: relative;
-  left: -2.5%;
   display: -webkit-inline-box;
 }
 
-li       {
+li{
   font-size: 14px;
   margin-left: 6%;
 }
@@ -57,41 +58,42 @@ h1 {
 }
 
 a {
+  color: #ffffff;
   text-decoration: none;
   list-style-type: none;
-  color: #ffffff;
 }
 
-.kop {
+.kop{
   padding: 10px;
   color: #404040;
   padding-left: 8px;
 }
 
 .top-left {
-  float: left;
-  width: 25%;
+  width: 190px;
   margin-right: 25px;
   margin-bottom: 12px;
+  float: left;
 }
 .text {
   padding: 10px;
   padding-left: 2px;
   font-size: 16px;
-  width: 95%;
+  width: 710px;
 }
+
 .top-left2 {
-  float: left;
-  width: 35%;
+  width: 250px;
   margin-right: 25px;
   margin-bottom: 12px;
+  float: left;
 }
 
 .mid-right {
   float: right;
-  margin-left: 15px;
-  margin-bottom: 15px;
   margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
 }
 
 .bottom-left {
@@ -110,15 +112,15 @@ a {
 
 .top-right {
   float: right;
-  margin-left: 2.5%;
-  margin-bottom: 2.5%;
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .bottom-left1 {
   float: left;
-  margin-right: 2.5%;
-  margin-bottom: 4.5%;
-  margin-top: 2.5%;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .bottom-left2{
